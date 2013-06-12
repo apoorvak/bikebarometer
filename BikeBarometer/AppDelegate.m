@@ -11,7 +11,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{   NSLog(@"application did finish launching");
     // Override point for customization after application launch.
     return YES;
 }

@@ -14,6 +14,13 @@
 
 @implementation ViewController
 
+
+-(IBAction)clickTheButton:(id)sender{
+    
+    NSLog(@"Bike Barometer!");
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
