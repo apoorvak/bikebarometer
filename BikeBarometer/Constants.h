@@ -10,5 +10,6 @@
 #define BikeBarometer_Constants_h
 
 
-
+#define kMainUrl @"http://bikebarometer.appspot.com/input"
+//#define kMainUrl @"http://bbar-json.appspot.com/inputform"
 #endif

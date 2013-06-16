@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48101A94176BC0FA007EFD54 /* mockup-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48101A93176BC0FA007EFD54 /* mockup-1.jpg */; };
+		48101A96176E139A007EFD54 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48101A95176E139A007EFD54 /* ViewController.xib */; };
+		48101A9A176E1898007EFD54 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48101A98176E1898007EFD54 /* DetailVC.m */; };
+		48101A9B176E1898007EFD54 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48101A99176E1898007EFD54 /* DetailVC.xib */; };
+		48945448176A678C0069E62C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48945447176A678C0069E62C /* libxml2.dylib */; };
 		7D52EE771768E40A009CF8F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D52EE761768E40A009CF8F8 /* UIKit.framework */; };
 		7D52EE791768E40A009CF8F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D52EE781768E40A009CF8F8 /* Foundation.framework */; };
 		7D52EE7B1768E40A009CF8F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D52EE7A1768E40A009CF8F8 /* CoreGraphics.framework */; };
@@ -16,11 +21,17 @@
 		7D52EE891768E40A009CF8F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D52EE881768E40A009CF8F8 /* Default.png */; };
 		7D52EE8B1768E40A009CF8F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D52EE8A1768E40A009CF8F8 /* Default@2x.png */; };
 		7D52EE8D1768E40A009CF8F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D52EE8C1768E40A009CF8F8 /* Default-568h@2x.png */; };
-		7D52EE901768E40A009CF8F8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D52EE8E1768E40A009CF8F8 /* MainStoryboard.storyboard */; };
 		7D52EE931768E40A009CF8F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D52EE921768E40A009CF8F8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48101A93176BC0FA007EFD54 /* mockup-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mockup-1.jpg"; sourceTree = "<group>"; };
+		48101A95176E139A007EFD54 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		48101A97176E1898007EFD54 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		48101A98176E1898007EFD54 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		48101A99176E1898007EFD54 /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		48945446176A42D50069E62C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		48945447176A678C0069E62C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		7D52EE731768E40A009CF8F8 /* BikeBarometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeBarometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D52EE761768E40A009CF8F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D52EE781768E40A009CF8F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,7 +45,6 @@
 		7D52EE881768E40A009CF8F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7D52EE8A1768E40A009CF8F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7D52EE8C1768E40A009CF8F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7D52EE8F1768E40A009CF8F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7D52EE911768E40A009CF8F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7D52EE921768E40A009CF8F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48945448176A678C0069E62C /* libxml2.dylib in Frameworks */,
 				7D52EE771768E40A009CF8F8 /* UIKit.framework in Frameworks */,
 				7D52EE791768E40A009CF8F8 /* Foundation.framework in Frameworks */,
 				7D52EE7B1768E40A009CF8F8 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +67,7 @@
 		7D52EE6A1768E40A009CF8F8 = {
 			isa = PBXGroup;
 			children = (
+				48945447176A678C0069E62C /* libxml2.dylib */,
 				7D52EE7C1768E40A009CF8F8 /* BikeBarometer */,
 				7D52EE751768E40A009CF8F8 /* Frameworks */,
 				7D52EE741768E40A009CF8F8 /* Products */,
@@ -83,11 +95,15 @@
 		7D52EE7C1768E40A009CF8F8 /* BikeBarometer */ = {
 			isa = PBXGroup;
 			children = (
+				48945446176A42D50069E62C /* Constants.h */,
 				7D52EE851768E40A009CF8F8 /* AppDelegate.h */,
 				7D52EE861768E40A009CF8F8 /* AppDelegate.m */,
-				7D52EE8E1768E40A009CF8F8 /* MainStoryboard.storyboard */,
 				7D52EE911768E40A009CF8F8 /* ViewController.h */,
 				7D52EE921768E40A009CF8F8 /* ViewController.m */,
+				48101A95176E139A007EFD54 /* ViewController.xib */,
+				48101A97176E1898007EFD54 /* DetailVC.h */,
+				48101A98176E1898007EFD54 /* DetailVC.m */,
+				48101A99176E1898007EFD54 /* DetailVC.xib */,
 				7D52EE7D1768E40A009CF8F8 /* Supporting Files */,
 			);
 			path = BikeBarometer;
@@ -96,6 +112,7 @@
 		7D52EE7D1768E40A009CF8F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48101A93176BC0FA007EFD54 /* mockup-1.jpg */,
 				7D52EE7E1768E40A009CF8F8 /* BikeBarometer-Info.plist */,
 				7D52EE7F1768E40A009CF8F8 /* InfoPlist.strings */,
 				7D52EE821768E40A009CF8F8 /* main.m */,
@@ -162,7 +179,9 @@
 				7D52EE891768E40A009CF8F8 /* Default.png in Resources */,
 				7D52EE8B1768E40A009CF8F8 /* Default@2x.png in Resources */,
 				7D52EE8D1768E40A009CF8F8 /* Default-568h@2x.png in Resources */,
-				7D52EE901768E40A009CF8F8 /* MainStoryboard.storyboard in Resources */,
+				48101A94176BC0FA007EFD54 /* mockup-1.jpg in Resources */,
+				48101A96176E139A007EFD54 /* ViewController.xib in Resources */,
+				48101A9B176E1898007EFD54 /* DetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +195,7 @@
 				7D52EE831768E40A009CF8F8 /* main.m in Sources */,
 				7D52EE871768E40A009CF8F8 /* AppDelegate.m in Sources */,
 				7D52EE931768E40A009CF8F8 /* ViewController.m in Sources */,
+				48101A9A176E1898007EFD54 /* DetailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +208,6 @@
 				7D52EE801768E40A009CF8F8 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7D52EE8E1768E40A009CF8F8 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D52EE8F1768E40A009CF8F8 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +274,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BikeBarometer/BikeBarometer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "BikeBarometer/BikeBarometer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -273,6 +286,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BikeBarometer/BikeBarometer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "BikeBarometer/BikeBarometer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -298,6 +312,7 @@
 				7D52EE981768E40A009CF8F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

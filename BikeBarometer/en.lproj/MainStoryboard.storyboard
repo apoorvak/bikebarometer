@@ -12,6 +12,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQm-2p-uuD"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVk-iP-Jp9">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Send">
@@ -37,15 +38,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="uQm-2p-uuD" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="4vl-O0-YKK"/>
+                            <constraint firstItem="uQm-2p-uuD" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="69B-lf-Pyn"/>
+                            <constraint firstItem="uQm-2p-uuD" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="AYa-JF-7eV"/>
                             <constraint firstItem="A5Q-eN-lJO" firstAttribute="top" secondItem="3" secondAttribute="top" constant="108" id="BT0-KT-r9G"/>
+                            <constraint firstItem="uQm-2p-uuD" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="KUl-hF-u7x"/>
                             <constraint firstItem="Jqt-Kk-1g5" firstAttribute="centerX" secondItem="KVk-iP-Jp9" secondAttribute="centerX" type="default" id="a6Q-OR-klQ"/>
                             <constraint firstItem="A5Q-eN-lJO" firstAttribute="trailing" secondItem="Jqt-Kk-1g5" secondAttribute="trailing" type="default" id="bYm-jw-JXC"/>
                             <constraint firstItem="Jqt-Kk-1g5" firstAttribute="top" secondItem="3" secondAttribute="top" constant="158" id="e7G-c1-YRg"/>
+                            <constraint firstItem="uQm-2p-uuD" firstAttribute="centerX" secondItem="A5Q-eN-lJO" secondAttribute="centerX" type="default" id="iga-Gx-jYN"/>
                             <constraint firstItem="KVk-iP-Jp9" firstAttribute="top" secondItem="3" secondAttribute="top" constant="216" id="jMH-uW-P3Y"/>
-                            <constraint firstItem="KVk-iP-Jp9" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="qWc-0E-fKw"/>
                             <constraint firstItem="A5Q-eN-lJO" firstAttribute="leading" secondItem="Jqt-Kk-1g5" secondAttribute="leading" type="default" id="vsl-Jc-CwQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="txtZip" destination="Jqt-Kk-1g5" id="qXq-zo-z7a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -60,6 +68,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="clickTheButton:"/>
+                <relationship kind="outlet" name="txtZip" candidateClass="UITextField"/>
             </relationships>
         </class>
     </classes>

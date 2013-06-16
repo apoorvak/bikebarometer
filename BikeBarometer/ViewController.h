@@ -7,9 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
 
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UITextField *txtZip;
+    IBOutlet UILabel *lblState;
+    IBOutlet UILabel *lblScore;
+    IBOutlet UILabel *lblCity;
+    IBOutlet UILabel *lblCondition;
+    IBOutlet UILabel *lblTemperature;
+    IBOutlet UILabel *lblIts;
+    IBOutlet UILabel *lblDegrees;
+    IBOutlet UILabel *lblScoreTitle;
+    
+}
 
 - (IBAction)clickTheButton:(id)sender;
 
