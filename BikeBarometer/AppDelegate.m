@@ -14,7 +14,24 @@
 {   NSLog(@"application did finish launching");
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    NSString *nib_name;
+    if([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height * [UIScreen mainScreen].scale>=1136)
+        
+    {
+        
+        nib_name = @"ViewController";
+        
+    }
+    
+    else
+        
+    {
+        
+        nib_name = @"ViewController-iPhone4";
+        
+    }
+    
+    self.viewController = [[ViewController alloc] initWithNibName:nib_name bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

@@ -55,14 +55,60 @@
     }
     else{
     
+        
+        [UIView beginAnimations:nil context:NULL];
+        [UIView setAnimationDuration:0.5];
+        [self.view setFrame:CGRectMake(0, 20, 320, 480)];
+        [UIView commitAnimations];
+        
+        
         lblCity.text = [responseDictionary objectForKey:@"city"];
         lblCondition.text = [responseDictionary objectForKey:@"condition"];
         lblState.text = [responseDictionary objectForKey:@"state"];
         lblTemperature.text = [[responseDictionary objectForKey:@"temp"] stringValue];
         lblScore.text = [[responseDictionary objectForKey:@"score"] stringValue];
+        score = [[responseDictionary objectForKey:@"score"] integerValue];
         lblIts.hidden = NO;
         lblDegrees.hidden = NO;
         lblScoreTitle.hidden = NO;
+        
+        switch (score) {
+            case 0:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 1:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 2:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 3:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 4:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 5:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 6:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 7:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 8:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 9:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            case 10:
+                imgMeter.image = [UIImage imageNamed:[NSString stringWithFormat:@"bar-%d.png",score]];
+                break;
+            default:
+                break;
+        }
         NSLog(@"%@",responseDictionary);
         NSLog(@"%@",lblCity.text);
         NSLog(@"%@",lblCondition.text);
@@ -82,6 +128,19 @@
 
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection{
     
+}
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField{
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.5];
+    [self.view setFrame:CGRectMake(0, -40, 320, 480)];
+    [UIView commitAnimations];
+    return YES;
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:0.5];
+    [self.view setFrame:CGRectMake(0, 20, 320, 480)];
+    [UIView commitAnimations];
 }
 - (void)didReceiveMemoryWarning
 {

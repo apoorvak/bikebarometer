@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48101A94176BC0FA007EFD54 /* mockup-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48101A93176BC0FA007EFD54 /* mockup-1.jpg */; };
 		48101A96176E139A007EFD54 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48101A95176E139A007EFD54 /* ViewController.xib */; };
 		48101A9A176E1898007EFD54 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48101A98176E1898007EFD54 /* DetailVC.m */; };
 		48101A9B176E1898007EFD54 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48101A99176E1898007EFD54 /* DetailVC.xib */; };
-		48945448176A678C0069E62C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48945447176A678C0069E62C /* libxml2.dylib */; };
+		48101ABF1770374E007EFD54 /* bar-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AA91770374E007EFD54 /* bar-0.png */; };
+		48101AC01770374E007EFD54 /* bar-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AAA1770374E007EFD54 /* bar-1.png */; };
+		48101AC11770374E007EFD54 /* bar-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AAB1770374E007EFD54 /* bar-10.png */; };
+		48101AC21770374E007EFD54 /* bar-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AAC1770374E007EFD54 /* bar-2.png */; };
+		48101AC31770374E007EFD54 /* bar-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AAD1770374E007EFD54 /* bar-3.png */; };
+		48101AC41770374E007EFD54 /* bar-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AAE1770374E007EFD54 /* bar-4.png */; };
+		48101AC51770374E007EFD54 /* bar-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AAF1770374E007EFD54 /* bar-5.png */; };
+		48101AC61770374E007EFD54 /* bar-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AB01770374E007EFD54 /* bar-6.png */; };
+		48101AC71770374E007EFD54 /* bar-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AB11770374E007EFD54 /* bar-7.png */; };
+		48101AC81770374E007EFD54 /* bar-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AB21770374E007EFD54 /* bar-8.png */; };
+		48101AC91770374E007EFD54 /* bar-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 48101AB31770374E007EFD54 /* bar-9.png */; };
+		4812AF6F177044020062A279 /* ViewController-iPhone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4812AF6E177044010062A279 /* ViewController-iPhone4.xib */; };
 		7D52EE771768E40A009CF8F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D52EE761768E40A009CF8F8 /* UIKit.framework */; };
 		7D52EE791768E40A009CF8F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D52EE781768E40A009CF8F8 /* Foundation.framework */; };
 		7D52EE7B1768E40A009CF8F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D52EE7A1768E40A009CF8F8 /* CoreGraphics.framework */; };
@@ -25,13 +35,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48101A93176BC0FA007EFD54 /* mockup-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mockup-1.jpg"; sourceTree = "<group>"; };
 		48101A95176E139A007EFD54 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		48101A97176E1898007EFD54 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
 		48101A98176E1898007EFD54 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
 		48101A99176E1898007EFD54 /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		48101AA91770374E007EFD54 /* bar-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-0.png"; sourceTree = "<group>"; };
+		48101AAA1770374E007EFD54 /* bar-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-1.png"; sourceTree = "<group>"; };
+		48101AAB1770374E007EFD54 /* bar-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-10.png"; sourceTree = "<group>"; };
+		48101AAC1770374E007EFD54 /* bar-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-2.png"; sourceTree = "<group>"; };
+		48101AAD1770374E007EFD54 /* bar-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-3.png"; sourceTree = "<group>"; };
+		48101AAE1770374E007EFD54 /* bar-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-4.png"; sourceTree = "<group>"; };
+		48101AAF1770374E007EFD54 /* bar-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-5.png"; sourceTree = "<group>"; };
+		48101AB01770374E007EFD54 /* bar-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-6.png"; sourceTree = "<group>"; };
+		48101AB11770374E007EFD54 /* bar-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-7.png"; sourceTree = "<group>"; };
+		48101AB21770374E007EFD54 /* bar-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-8.png"; sourceTree = "<group>"; };
+		48101AB31770374E007EFD54 /* bar-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar-9.png"; sourceTree = "<group>"; };
+		4812AF6E177044010062A279 /* ViewController-iPhone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ViewController-iPhone4.xib"; sourceTree = "<group>"; };
 		48945446176A42D50069E62C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		48945447176A678C0069E62C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		7D52EE731768E40A009CF8F8 /* BikeBarometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeBarometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D52EE761768E40A009CF8F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D52EE781768E40A009CF8F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48945448176A678C0069E62C /* libxml2.dylib in Frameworks */,
 				7D52EE771768E40A009CF8F8 /* UIKit.framework in Frameworks */,
 				7D52EE791768E40A009CF8F8 /* Foundation.framework in Frameworks */,
 				7D52EE7B1768E40A009CF8F8 /* CoreGraphics.framework in Frameworks */,
@@ -64,10 +83,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48101A9C1770374D007EFD54 /* Meter */ = {
+			isa = PBXGroup;
+			children = (
+				48101AA91770374E007EFD54 /* bar-0.png */,
+				48101AAA1770374E007EFD54 /* bar-1.png */,
+				48101AAB1770374E007EFD54 /* bar-10.png */,
+				48101AAC1770374E007EFD54 /* bar-2.png */,
+				48101AAD1770374E007EFD54 /* bar-3.png */,
+				48101AAE1770374E007EFD54 /* bar-4.png */,
+				48101AAF1770374E007EFD54 /* bar-5.png */,
+				48101AB01770374E007EFD54 /* bar-6.png */,
+				48101AB11770374E007EFD54 /* bar-7.png */,
+				48101AB21770374E007EFD54 /* bar-8.png */,
+				48101AB31770374E007EFD54 /* bar-9.png */,
+			);
+			path = Meter;
+			sourceTree = "<group>";
+		};
 		7D52EE6A1768E40A009CF8F8 = {
 			isa = PBXGroup;
 			children = (
-				48945447176A678C0069E62C /* libxml2.dylib */,
 				7D52EE7C1768E40A009CF8F8 /* BikeBarometer */,
 				7D52EE751768E40A009CF8F8 /* Frameworks */,
 				7D52EE741768E40A009CF8F8 /* Products */,
@@ -101,6 +137,7 @@
 				7D52EE911768E40A009CF8F8 /* ViewController.h */,
 				7D52EE921768E40A009CF8F8 /* ViewController.m */,
 				48101A95176E139A007EFD54 /* ViewController.xib */,
+				4812AF6E177044010062A279 /* ViewController-iPhone4.xib */,
 				48101A97176E1898007EFD54 /* DetailVC.h */,
 				48101A98176E1898007EFD54 /* DetailVC.m */,
 				48101A99176E1898007EFD54 /* DetailVC.xib */,
@@ -112,7 +149,7 @@
 		7D52EE7D1768E40A009CF8F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48101A93176BC0FA007EFD54 /* mockup-1.jpg */,
+				48101A9C1770374D007EFD54 /* Meter */,
 				7D52EE7E1768E40A009CF8F8 /* BikeBarometer-Info.plist */,
 				7D52EE7F1768E40A009CF8F8 /* InfoPlist.strings */,
 				7D52EE821768E40A009CF8F8 /* main.m */,
@@ -179,9 +216,20 @@
 				7D52EE891768E40A009CF8F8 /* Default.png in Resources */,
 				7D52EE8B1768E40A009CF8F8 /* Default@2x.png in Resources */,
 				7D52EE8D1768E40A009CF8F8 /* Default-568h@2x.png in Resources */,
-				48101A94176BC0FA007EFD54 /* mockup-1.jpg in Resources */,
 				48101A96176E139A007EFD54 /* ViewController.xib in Resources */,
 				48101A9B176E1898007EFD54 /* DetailVC.xib in Resources */,
+				48101ABF1770374E007EFD54 /* bar-0.png in Resources */,
+				48101AC01770374E007EFD54 /* bar-1.png in Resources */,
+				48101AC11770374E007EFD54 /* bar-10.png in Resources */,
+				48101AC21770374E007EFD54 /* bar-2.png in Resources */,
+				48101AC31770374E007EFD54 /* bar-3.png in Resources */,
+				48101AC41770374E007EFD54 /* bar-4.png in Resources */,
+				48101AC51770374E007EFD54 /* bar-5.png in Resources */,
+				48101AC61770374E007EFD54 /* bar-6.png in Resources */,
+				48101AC71770374E007EFD54 /* bar-7.png in Resources */,
+				48101AC81770374E007EFD54 /* bar-8.png in Resources */,
+				48101AC91770374E007EFD54 /* bar-9.png in Resources */,
+				4812AF6F177044020062A279 /* ViewController-iPhone4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

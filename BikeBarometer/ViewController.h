@@ -10,7 +10,7 @@
 #import "Constants.h"
 
 
-@interface ViewController : UIViewController{
+@interface ViewController : UIViewController<UITextFieldDelegate>{
     
     IBOutlet UITextField *txtZip;
     IBOutlet UILabel *lblState;
@@ -21,6 +21,10 @@
     IBOutlet UILabel *lblIts;
     IBOutlet UILabel *lblDegrees;
     IBOutlet UILabel *lblScoreTitle;
+    IBOutlet UIImageView *imgMeter;
+    NSInteger score;
+    IBOutlet UIButton *btnSend;
+    IBOutlet UILabel *lblTitle;
     
 }
 
